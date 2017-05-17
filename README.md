@@ -17,6 +17,18 @@ Tip:
 
 If you use `custom-react-scripts` instead, it will create a `.env` file in you `client/` folder. This allows you to easily update your webpack config to allow you to do things like use modulus CSS or ES7 decorators.
 
+`create-react-app my-app --scripts-version custom-react-scripts`
+
+And then you can add something like this to your `client/.env`
+
+```
+REACT_APP_SASS=true
+REACT_APP_LESS=true
+REACT_APP_STYLUS=true
+REACT_APP_CSS_MODULES=true
+REACT_APP_DECORATORS=true
+```
+
 Make sure to add the following proxy to your `client/package.json`
 `"proxy": "http://localhost:3001/"`
 
