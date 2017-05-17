@@ -1,12 +1,15 @@
 # Full Stack w/ create-react-app
 
 ### overview
-This project demonstrates how to proxy and node server with a generated react application.
+This project demonstrates how to proxy a node server with a generated react application.
 
-`git clone <url>`
+`git clone https://github.com/fresh5447/full-stack-create-react-app`
+
 `cd full-stack-create-react-app && npm install`
 
 Then create you React app using create-react-app:
+
+( if you haven't installed - `sudo npm i -g create-react-app`)
 
 `create-react-app client`
 
@@ -28,11 +31,7 @@ This is also set for heroku. Just head into client and do an `npm run build` to 
 
 For your convenience there is already a functional RESTful API for the resource 'Article', just make sure you have Mongo running.
 
-#### Links
+#### Relevant Links
 * [create-react-app](https://github.com/facebookincubator/create-react-app)
 * [custom react scripts](https://github.com/kitze/custom-react-scripts)
-* Protecting routes/ functionality from non-authed users
-* Forming Comments/ Articles relationships
-* Design Home page using [Sketch](https://www.sketchapp.com/)
-* Update Article to have category & category relationships
-* Migrate to production using [Heroku](https://heroku.com)
+* [foreman](https://www.npmjs.com/package/foreman)
