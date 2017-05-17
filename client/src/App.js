@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 
+import { observer, inject } from 'mobx-react';
 //styles
 import './App.scss';
 import styles from './Modules.css';
 
+
+@inject('store') @observer
 class App extends Component {
   render() {
     return (
@@ -13,6 +16,13 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo"/>
           <h2 className="App-title"> ☢ custom-react-scripts ☢ </h2>
           <div className="App-subtitle"> allow custom config for create-react-app without ejecting</div>
+        </div>
+
+        <div>
+          <h1>MOBX TEST BUTTON</h1>
+          <label>Observable Prop:</label> <h3>{this.props.store.thingProp}</h3>
+          <label>Computed Prop:</label> <h3>{this.props.store.mult}</h3>
+          <button onClick={ e => this.props.store.updateThing(e)}>Update It</button>
         </div>
 
         <div className={styles.description}>
