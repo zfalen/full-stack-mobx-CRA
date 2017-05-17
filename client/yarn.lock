@@ -1788,6 +1788,10 @@ diff@^3.0.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.2.0.tgz#c9ce393a4b7cbd0b058a725c93df299027868ff9"
 
+director@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/director/-/director-1.2.8.tgz#c6d9b4dd890e9aff5365183fe9cc8e73994cf2d5"
+
 doctrine@1.3.x:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-1.3.0.tgz#13e75682b55518424276f7c173783456ef913d26"
@@ -2602,6 +2606,10 @@ he@1.1.x:
 hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
+
+hoist-non-react-statics@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -3695,6 +3703,20 @@ mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkd
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   dependencies:
     minimist "0.0.8"
+
+mobx-react-devtools@^4.2.13:
+  version "4.2.13"
+  resolved "https://registry.yarnpkg.com/mobx-react-devtools/-/mobx-react-devtools-4.2.13.tgz#44b8bab566cefb199136770ca65278c646bbb0b5"
+
+mobx-react@^4.1.8:
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/mobx-react/-/mobx-react-4.1.8.tgz#5b636c01c599bbee248c05c5aab6c77a41ab07f9"
+  dependencies:
+    hoist-non-react-statics "^1.2.0"
+
+mobx@^3.1.9:
+  version "3.1.9"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.1.9.tgz#ed4af9d874ff6032c7af91fc1b87d9d33122a557"
 
 ms@0.7.1:
   version "0.7.1"
