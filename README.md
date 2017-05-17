@@ -30,6 +30,7 @@ REACT_APP_DECORATORS=true
 ```
 
 Make sure to add the following proxy to your `client/package.json`
+
 `"proxy": "http://localhost:3001/"`
 
 Now, if you run `npm run dev` foreman will look at the `Procfile.dev`, and simultaneously start both your node and react application.
@@ -38,7 +39,7 @@ You can hit you api endpoints at `localhost:3001` meanwhile viewing your react a
 
 In summary a custom script in the the node `package.json` tells forman to look at the `Procfile.dev`, for directions. The proxy in the client 'package.json' allows us to skip any CORS issues.
 
-This is also set for heroku. Just head into client and do an `npm run build` to make a prouction build, and then heroku will start your app using the `npm run start command.`
+This is also set for heroku. Just head into client and do an `npm run build` to make a production build, and then heroku will start your app using the `npm run start command.`
 
 
 For your convenience there is already a functional RESTful API for the resource 'Article', just make sure you have Mongo running.
