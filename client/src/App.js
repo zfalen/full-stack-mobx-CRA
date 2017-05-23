@@ -45,6 +45,7 @@ class App extends Component {
           </ul>
 
           <b> ⚠️ Babel </b>
+          <h1 className="thing">rawrsssssaaaass</h1>
 
           <div className={styles.warning}>
             (Please note that these features are highly experimental (especially stage-0) and still not a part of the ES
@@ -52,7 +53,7 @@ class App extends Component {
             Use them at
             your own risk of breaking backwards compatibility if they don't make the final version of the spec.)
           </div>
-
+a
           <ul className="configs babel-configs">
             <li>
               <code>REACT_APP_BABEL_STAGE_0=true</code>

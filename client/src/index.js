@@ -37,6 +37,17 @@ ReactDOM.render(
 );
 
 
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    const NextApp = require('./App').default
+    ReactDOM.render(
+      <NextApp />,
+      document.getElementById('root')
+    )
+  })
+}
+
+
 const mobxDevToolsDiv = document.createElement('div');
 mobxDevToolsDiv.id = 'mobxDevToolsDiv';
 document.body.appendChild(mobxDevToolsDiv);
